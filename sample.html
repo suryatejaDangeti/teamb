@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head> </head>
+
+<body>
+<style>
+.container {
+    background-color: #87CEFA;
+    background-size: cover;
+    display: flex;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+.btn-style{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 1px #ffffff;
+    background-color: #FF7F50;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.login-page {
+    display: flex;
+    flex-direction: column;
+}
+.img-style{
+    width: 40vw;
+    height: 50vh;
+}
+
+.input-b {
+    width: 200px;
+    height: 25px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: solid 1px #ffffff;
+    border-radius: 5px;
+}
+
+.label-text {
+    font-family: Roboto;
+    font-size: 12px;
+    color: #000000;
+}
+.login-page{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heading {
+    font-family: Roboto;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+}
+</style>
+    <div class="container">
+        <div>
+            <img class=" img-style" src="https://as2.ftcdn.net/v2/jpg/01/21/32/43/1000_F_121324332_W1bUs7v0tW7pcbrAR3e6190pFJe0laQ8.jpg" />
+        </div>
+        <div class="login-page">
+            <h1 class="heading">Login</h1>
+            <label class="label-text" for="input-el">Username</label>
+            <input class="input-b" id="input-el" type="text" placeholder="Username" />
+            <label class="label-text" for="password-el">password</label>
+            <input class="input-b" id="password-el" type="password" placeholder="password" />
+            <div class="btn-container">
+                <button class="btn-style">Login</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>s
